@@ -89,16 +89,19 @@ Runs a single Chrome session locally.
 ```bash
 python parallel_runner.py
 ```
-Launches 5 parallel sessions across:
+The solution was executed successfully across 5 parallel environments:
 
 | #  | Browser / Device    | Platform      | Type         |
 |----|---------------------|---------------|--------------|
 | 1  | Chrome              | Windows 11    | Desktop      |
 | 2  | Firefox             | Windows 10    | Desktop      |
 | 3  | Edge                | Windows 11    | Desktop      |
-| 4  | iPhone 14           | iOS           | Real Device  |
-| 5  | Samsung Galaxy S23  | Android       | Real Device  |
+| 4  | iPhone 14           | iOS           | Mobile       |
+| 5  | Samsung Galaxy S23  | Android       | Mobile       |
 
+All sessions passed successfully.
+
+![BrowserStack Report](docs\BrowserStack_Report.jpg)
 ---
 
 ## 🔍 Automation Workflow
@@ -122,7 +125,6 @@ Launches 5 parallel sessions across:
 | requests              | Image downloading              |
 | python-dotenv         | Environment configuration      |
 | BrowserStack Automate | Cloud parallel execution       |
-| concurrent.futures    | Thread-based parallelism       |
 
 
 ---
