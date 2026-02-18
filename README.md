@@ -101,7 +101,7 @@ The solution was executed successfully across 5 parallel environments:
 
 All sessions passed successfully.
 
-![BrowserStack Report](docs\BrowserStack_Report.jpg)
+![BrowserStack Report](docs/BrowserStack_Report.jpg)
 ---
 
 ## 🔍 Automation Workflow
