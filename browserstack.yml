@@ -1,0 +1,15 @@
+userName: nikhilsharma_Dv2Jnk
+accessKey: CHCY85QDqNa7dnzaMw5g
+
+framework: pytest
+
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+
+browserstackLocal: false
+
+buildName: selenium-json-export
+projectName: selenium-project
